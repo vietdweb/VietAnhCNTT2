@@ -24,10 +24,17 @@
 ## 📂 Cấu Trúc Dự Án
 
 ```
-VietAnhCNTT2/
-├── Program.cs
+VietAnhCNTT2/               (root repository)
+├── .vs/                   (Visual Studio hidden files)
+├── VietAnhCNTT2.slnx      (solution file)
 ├── README.md
-└── VietAnhCNTT2.slnx
+└── VietAnhCNTT2/          (project folder)
+	├── VietAnhCNTT2.csproj
+	├── Program.cs
+	├── Student.cs
+	├── StudentService.cs
+	├── StudentConsoleView.cs
+	├── MenuManager.cs
 ```
 
 ---
