@@ -3,10 +3,8 @@ using System.Collections.Generic;
 
 namespace VietAnhCNTT2
 {
-    /// <summary>
     /// Class: StudentConsoleView - Xử lý tất cả UI/UX tương tác với người dùng qua console
     /// Author: Viet Anh
-    /// </summary>
     internal class StudentConsoleView
     {
         private StudentService studentService;
@@ -16,9 +14,7 @@ namespace VietAnhCNTT2
             studentService = service;
         }
 
-        /// <summary>
         /// Hiển thị danh sách sinh viên
-        /// </summary>
         public void DisplayStudentList(List<Student> list)
         {
             if (!list.Any())
@@ -34,9 +30,7 @@ namespace VietAnhCNTT2
             }
         }
 
-        /// <summary>
         /// In thông tin chi tiết một sinh viên
-        /// </summary>
         public void PrintStudent(Student s)
         {
             Console.WriteLine("-----------------------------");
@@ -52,9 +46,7 @@ namespace VietAnhCNTT2
             Console.WriteLine("-----------------------------");
         }
 
-        /// <summary>
         /// Nhập thông tin sinh viên mới
-        /// </summary>
         public void InputNewStudent()
         {
             Student sv = new Student();
@@ -156,9 +148,7 @@ namespace VietAnhCNTT2
             Console.WriteLine(result.message);
         }
 
-        /// <summary>
         /// Tìm sinh viên theo mã
-        /// </summary>
         public void SearchByMaSV()
         {
             Console.Write("Nhập mã sinh viên cần tìm: ");
@@ -174,9 +164,7 @@ namespace VietAnhCNTT2
             PrintStudent(sv);
         }
 
-        /// <summary>
         /// Tìm sinh viên theo họ tên (gần đúng)
-        /// </summary>
         public void SearchByHoTen()
         {
             Console.Write("Nhập họ tên hoặc một phần của họ tên: ");
@@ -186,9 +174,7 @@ namespace VietAnhCNTT2
             DisplayStudentList(list);
         }
 
-        /// <summary>
         /// Cập nhật thông tin sinh viên
-        /// </summary>
         public void UpdateStudent()
         {
             Console.Write("Nhập mã sinh viên cần cập nhật: ");

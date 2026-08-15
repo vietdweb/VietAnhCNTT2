@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace VietAnhCNTT2
 {
-    /// <summary>
     /// Class: Student - Lớp đại diện cho một sinh viên
     /// Author: Viet Anh
-    /// </summary>
     internal class Student
     {
         // Constructor không tham số

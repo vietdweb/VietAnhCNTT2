@@ -2,10 +2,8 @@ using System;
 
 namespace VietAnhCNTT2
 {
-    /// <summary>
     /// Class: MenuManager - Quản lý menu và điều hướng các chức năng
     /// Author: Viet Anh
-    /// </summary>
     internal class MenuManager
     {
         private StudentService studentService;
@@ -17,9 +15,7 @@ namespace VietAnhCNTT2
             consoleView = view;
         }
 
-        /// <summary>
         /// Hiển thị menu chính
-        /// </summary>
         public void DisplayMenu()
         {
             Console.WriteLine("\n========== CHỨC NĂNG QUẢN LÝ SINH VIÊN ==========");
@@ -40,9 +36,7 @@ namespace VietAnhCNTT2
             Console.WriteLine("=".PadRight(50, '='));
         }
 
-        /// <summary>
         /// Chạy vòng lặp menu chính
-        /// </summary>
         public void Run()
         {
             string choice;
@@ -60,9 +54,7 @@ namespace VietAnhCNTT2
             Console.WriteLine("Bạn đã kết thúc chương trình.");
         }
 
-        /// <summary>
         /// Xử lý lựa chọn menu
-        /// </summary>
         private void HandleMenuChoice(string choice)
         {
             switch (choice)

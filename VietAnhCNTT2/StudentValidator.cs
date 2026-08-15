@@ -3,15 +3,11 @@ using System.Text.RegularExpressions;
 
 namespace VietAnhCNTT2
 {
-    /// <summary>
     /// Class: StudentValidator - Kiểm tra tính hợp lệ của dữ liệu sinh viên
     /// Author: Viet Anh
-    /// </summary>
     internal static class StudentValidator
     {
-        /// <summary>
         /// Kiểm tra xem mã sinh viên có hợp lệ không
-        /// </summary>
         public static (bool isValid, string message) ValidateMaSV(string masv)
         {
             if (string.IsNullOrWhiteSpace(masv))
@@ -19,9 +15,7 @@ namespace VietAnhCNTT2
             return (true, "");
         }
 
-        /// <summary>
         /// Kiểm tra xem mã sinh viên có trùng trong danh sách không
-        /// </summary>
         public static (bool isDuplicate, string message) CheckDuplicateMaSV(string masv, List<Student> students)
         {
             if (students.Any(x => x.masv == masv))
@@ -29,9 +23,7 @@ namespace VietAnhCNTT2
             return (false, "");
         }
 
-        /// <summary>
         /// Kiểm tra họ tên có hợp lệ không
-        /// </summary>
         public static (bool isValid, string message) ValidateHoTen(string hoTen)
         {
             if (string.IsNullOrWhiteSpace(hoTen))
@@ -39,9 +31,7 @@ namespace VietAnhCNTT2
             return (true, "");
         }
 
-        /// <summary>
         /// Kiểm tra email có hợp lệ không
-        /// </summary>
         public static (bool isValid, string message) ValidateEmail(string email)
         {
             if (string.IsNullOrWhiteSpace(email))
@@ -59,9 +49,7 @@ namespace VietAnhCNTT2
             }
         }
 
-        /// <summary>
         /// Kiểm tra điểm trung bình có hợp lệ không (0-10)
-        /// </summary>
         public static (bool isValid, string message) ValidateDiem(float dtb)
         {
             if (dtb < 0 || dtb > 10)
@@ -69,9 +57,7 @@ namespace VietAnhCNTT2
             return (true, "");
         }
 
-        /// <summary>
         /// Kiểm tra ngày sinh có hợp lệ không
-        /// </summary>
         public static (bool isValid, string message) ValidateNgaySinh(DateTime? ngaySinh)
         {
             if (ngaySinh.HasValue && ngaySinh.Value > DateTime.Now)
@@ -79,9 +65,7 @@ namespace VietAnhCNTT2
             return (true, "");
         }
 
-        /// <summary>
         /// Kiểm tra toàn bộ dữ liệu sinh viên
-        /// </summary>
         public static (bool isValid, string message) ValidateStudent(Student student, List<Student> students, bool checkDuplicate = true)
         {
             // Kiểm tra mã
