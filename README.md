@@ -1,4 +1,4 @@
-# VietAnhCNTT2 - Dự Án Lập Trình Web 2
+# VietAnhCNTT2 
 
 ## 📋 Thông Tin Sinh Viên
 
@@ -87,24 +87,3 @@ Học phần **Lập Trình Web 2** (LTW2) tập trung vào:
 - **Email**: [GitHub Profile](https://github.com/vietdweb)
 - **Repository**: https://github.com/vietdweb/VietAnhCNTT2
 
----
-
-## 📅 Lịch Sử Cập Nhật
-
-- **v1.0** - Khởi tạo dự án và cấu hình GitHub Actions
-
----
-
-## 📄 Ghi Chú
-
-> Dự án này được phát triển như một phần của yêu cầu học tập cho học phần **UTC.K65CNT.LTW2** tại Khoa Công nghệ Thông tin.
-
----
-
-## 📞 Hỗ Trợ
-
-Nếu có bất kỳ câu hỏi hoặc vấn đề nào, vui lòng mở **Issue** trên GitHub repository này.
-
----
-
-**Cập Nhật lần cuối**: 2025
