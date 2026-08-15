@@ -1,4 +1,4 @@
-[![🧊ABOUT ME🧊](https://pimp-my-readme-next.vercel.app/api/sliding-text?emojis=&text=%F0%9F%A7%8AABOUT%20ME%F0%9F%A7%8A)](https://pimp-my-readme-next.vercel.app)
+[![🧊ABOUT ME🧊](https://pimp-my-readme-next.vercel.app/api/sliding-text?emojis=&text=%F0%9F%A7%8AABOUT%20ME%F0%9F%A7%8A)]
 
 ## 📋 Thông Tin Sinh Viên
 
