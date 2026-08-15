@@ -6,7 +6,7 @@
 |-----------|---------|
 | **Họ và Tên** | Nguyễn Việt Anh |
 | **MSV** | 241224467 |
-| **Khoa/Bộ Môn** | Khoa Công nghệ Thông tin |
+| **Khoa** | Khoa Công nghệ Thông tin |
 | **Lớp** | Công nghệ Thông tin 2 - K65 |
 | **Mã Lớp Học** | UTC.K65CNT.LTW2 |
 | **GitHub** | [vietdweb](https://github.com/vietdweb) |
