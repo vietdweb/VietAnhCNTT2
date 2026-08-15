@@ -34,7 +34,7 @@ VietAnhCNTT2/               (root repository)
 	├── Student.cs
 	├── StudentService.cs
 	├── StudentConsoleView.cs
-	├── MenuManager.cs
+	└── VietAnhCNTT2MenuManager.cs
 ```
 
 ---
