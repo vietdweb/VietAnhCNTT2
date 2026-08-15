@@ -26,9 +26,6 @@
 VietAnhCNTT2/
 ├── Program.cs
 ├── README.md
-├── .github/
-│   └── workflows/
-│       └── profile-3d-contrib.yml
 └── VietAnhCNTT2.slnx
 ```
 
